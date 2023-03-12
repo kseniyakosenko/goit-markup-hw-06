@@ -572,12 +572,6 @@ color: var(--filter-active-color);
 }
 
 
-
-
-
-
-
-
 /* Страница ПОРТФОЛИО + унаследование своqств цвета для p которые лежат в ссылках s*/
 .list a {
   text-decoration: none;
