@@ -815,11 +815,13 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-be
 outline: none;
 }
 
-.modal-form-input:focus + .modal-form-input-icon{
+/* .modal-form-input:focus + .modal-form-input-icon{
   fill: var(--filter-color);
   background-image: url(../images/chec.svg);
   background-color: #F4F4FD;
-}
+} */
+
+
 
 
 .modal-form-input-descr{
@@ -845,7 +847,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1)
 
 .modal-form-check:checked + .modal-form-check-descr::before{
   background-color: var(--hero-button-active-background-color);
-  background-image: url(./images/chec.svg);
+  background-image: url(../images/chec.svg);
   background-repeat: no-repeat;
   background-position: center;
   padding: 4px 3px 4px 3px;
